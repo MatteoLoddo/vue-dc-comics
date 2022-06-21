@@ -2,14 +2,14 @@
     <div>
         <div class="container">
             <div class="row">
-                <div class="col-6 d-flex ">
-                    <ul v-for="(items,i) in FooterLink" :key="i" class="d-flex flex-column flex-wrap">{{items.nameGroup}}
+                <div class="col-5 d-flex flex-wrap ">
+                    <ul v-for="(items,i) in FooterLink" :key="i" class="d-flex flex-column">{{items.nameGroup}}
                         <li class="list-unstyled text-break" v-for="(link,i) in items.linkList" :key="i">
                             <a class="text-decoration-none p-1" href="#">{{link}}</a>
                         </li>
                     </ul>
                 </div>
-                <div class="col-6 dc-logo-jumbo">
+                <div class="col-7 dc-logo-jumbo">
                 </div>
             </div>
         </div>
@@ -83,13 +83,14 @@ export default{
     color:#fff;
     background-image: url(/public/img/footer-bg.jpg);
 }
-.col-6{
+.col-7{
     &.dc-logo-jumbo{
         background-image: url(/public/img/dc-logo-bg.png);
-        background-repeat: no-repeat
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
-.col-6{
+.col-5{
         
     ul{
         padding:0.8rem;

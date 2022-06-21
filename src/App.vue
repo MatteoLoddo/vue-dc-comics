@@ -4,7 +4,7 @@
     <MyHeader class="fix-top"></MyHeader>
     
 
-    <MyMain></MyMain>
+    <MyMain class=""></MyMain>
 
     <MyFooter class="jumbotron"></MyFooter>
     
