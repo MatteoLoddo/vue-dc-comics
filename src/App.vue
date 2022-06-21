@@ -1,15 +1,26 @@
 <template>
-  <div id="app">
-    <MyHeader></MyHeader>
+  <div id="app" class="">
+  
+    <MyHeader class="fix-top"></MyHeader>
+    
+
+    <MyMain></MyMain>
+
+    <MyFooter class="jumbotron"></MyFooter>
+    
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue';
+import MyMain from './components/MyMain.vue';
+import MyFooter from './components/MyFooter.vue';
+
 
 export default {
   name: 'App',
-  components: { MyHeader,
+  
+  components: { MyHeader, MyMain, MyFooter,
   
   }
 }
@@ -20,8 +31,13 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+  .fix-top{
+    position:fixed;
+    right:0;
+    left:0;
+    top:2rem;
+    background-color:#fff;
+  }
 }
 </style>
