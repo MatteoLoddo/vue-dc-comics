@@ -1,13 +1,15 @@
 <template>
     <div>
         <div class="">
-            <div class="row w-50">
-                <div class="col-4 p-1" v-for="(items,i) in FooterLink" :key="i">
-                    <ul class="d-flex flex-column ">{{items.nameGroup}}
+            <div class="row">
+                <div class="col-6 d-flex ">
+                    <ul v-for="(items,i) in FooterLink" :key="i" class="d-flex flex-column flex-wrap">{{items.nameGroup}}
                         <li class="list-unstyled text-break" v-for="(link,i) in items.linkList" :key="i">
-                            <a class="p-1" href="#">{{link}}</a>
+                            <a class="text-decoration-none p-1" href="#">{{link}}</a>
                         </li>
                     </ul>
+                </div>
+                <div class="col-6 dc-logo-jumbo">
                 </div>
             </div>
         </div>
@@ -80,5 +82,23 @@ export default{
 .jumbotron{
     color:#fff;
     background-image: url(/public/img/footer-bg.jpg);
+}
+.col-6{
+    &.dc-logo-jumbo{
+        background-image: url(/public/img/dc-logo-bg.png);
+        background-repeat: no-repeat
+    }
+}
+.col-6{
+        
+    ul{
+        padding:0.8rem;
+        li{
+            a{
+                color:#717171
+
+            }
+        }
+    }
 }
 </style>

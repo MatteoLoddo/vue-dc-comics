@@ -12,7 +12,7 @@
 <style lang ="scss" scoped>
 
 .content{
-    background-color: black;
+    background-color: #1C1C1C;
     min-height:500px;
 
     .pt-10{

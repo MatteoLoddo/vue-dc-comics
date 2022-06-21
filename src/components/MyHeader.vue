@@ -69,7 +69,14 @@ export default{
     ul{
         li{
             &:hover{
-            border-bottom:2px solid blue;}
+                a{
+                    color:#0282F9
+                }
+            border-bottom:3px solid #0282F9;
+            }
+            a{
+                color:#1C1C1C;
+            }
         }
     }
 
