@@ -1,20 +1,18 @@
 <template>
-    <div>
-        <div class="container d-flex align-items-center p-2">
-            <div class="">
+    <div class="">
+        <div class=" container d-flex">
+            <div class="p-2">
                 <img src="/img/dc-logo.png" alt="">
             </div>
 
             <div class="flex-grow-1">
             </div>
             
-            <div class="">
-                <ul class="flex-grow justify-content-end d-flex">
-                    <li class="list-unstyled" v-for="(items,i) in NavBar" :key="i">
-                        <a class="p-2" href="#">{{items.title}}</a>
+                <ul class=" m-0 d-flex flex-grow-1 justify-content-end  ">
+                    <li class="list-unstyled d-flex " v-for="(items,i) in NavBar" :key="i">
+                        <a class="fs-8 fw-bold text-decoration-none p-2 align-self-center" href="#">{{items.title}}</a>
                     </li>
                 </ul>
-            </div>
         </div>
     </div>
 </template>
@@ -64,5 +62,19 @@ export default{
 </script>
 
 <style lang="scss" scoped>
+.fs-8{
+    font-size:0.8rem;
+    }
+
+    ul{
+        li{
+            &:hover{
+            border-bottom:2px solid blue;}
+        }
+    }
+
+
+
+
 
 </style>
