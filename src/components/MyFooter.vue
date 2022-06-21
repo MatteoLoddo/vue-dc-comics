@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="">
+        <div class="container">
             <div class="row">
                 <div class="col-6 d-flex ">
                     <ul v-for="(items,i) in FooterLink" :key="i" class="d-flex flex-column flex-wrap">{{items.nameGroup}}
