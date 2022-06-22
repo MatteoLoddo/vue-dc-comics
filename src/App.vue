@@ -1,8 +1,7 @@
 <template>
   <div id="app" class="">
   
-    <MyHeader class="fix-top">
-    </MyHeader>
+    <MyHeader class="fix-top"></MyHeader>
 
     <MyMain class="">
     </MyMain>
@@ -10,8 +9,7 @@
     <BannerDcMerch>
     </bannerDcMerch>
 
-    <MyFooter class="jumbotron">
-    </MyFooter>
+    <MyFooter class="jumbotron"></MyFooter>
     
   </div>
 </template>

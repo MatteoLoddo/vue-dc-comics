@@ -1,14 +1,12 @@
 <template>
-    <div>
-        <div class="row flex-wrap">
-            <div class="col col-xl-3 col-xxl " v-for="(comic,i) in listFumetti" :key="i">
+    <div class="container">
+        <div class="row flex-wrap g-4">
+            <div class="col col-xl-3 col-xxl" v-for="(comic,i) in listFumetti" :key="i">
                 <ComicsCard 
                 :comic-type="comic.series" 
                 :img-url="comic.thumb">
-                
                 </ComicsCard>
             </div>
-            
         </div>
     </div>
 </template>
@@ -95,10 +93,8 @@ export default{
                 }
             ]
         }
-    }
-
+    },
 }
-
 </script>
 
 

@@ -1,7 +1,7 @@
 <template>
         <div class="container-img">
             <img :src="imgUrl" :alt="`immagine del fumetto ${comicType}`">
-            <div>{{comicType}}</div>
+            <div class="p-2">{{comicType}}</div>
         </div>
 </template>
 
