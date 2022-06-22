@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-5 d-flex flex-wrap ">
                     <ul v-for="(items,i) in FooterLink" :key="i" class="d-flex flex-column">{{items.nameGroup}}
@@ -88,7 +88,8 @@ export default{
         background-image: url(/public/img/dc-logo-bg.png);
         background-repeat: no-repeat;
         background-size: cover;
-    }
+        background-position: 0px;  
+        }
 }
 .col-5{
         

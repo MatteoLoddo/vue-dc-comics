@@ -2,9 +2,10 @@
   <div id="app" class="">
   
     <MyHeader class="fix-top"></MyHeader>
-    
 
     <MyMain class=""></MyMain>
+
+    <BannerDcMerch></bannerDcMerch>
 
     <MyFooter class="jumbotron"></MyFooter>
     
@@ -15,12 +16,13 @@
 import MyHeader from './components/MyHeader.vue';
 import MyMain from './components/MyMain.vue';
 import MyFooter from './components/MyFooter.vue';
+import BannerDcMerch from './components/BannerDcMerch.vue';
 
 
 export default {
   name: 'App',
   
-  components: { MyHeader, MyMain, MyFooter,
+  components: { MyHeader, MyMain, MyFooter, BannerDcMerch,
   
   }
 }
