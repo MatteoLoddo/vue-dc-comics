@@ -19,19 +19,19 @@ data() {
                 img: "img/buy-comics-digital-comics.png"
             },
             {
-                text:"DIGITAL COMICS",
+                text:"DC MERCHANDISE",
                 img: "img/buy-comics-merchandise.png"
             },
             {
-                text:"DIGITAL COMICS",
+                text:"COMIC SHOP LOCATOR",
                 img: "img/buy-comics-shop-locator.png"
             },
             {
-                text:"DIGITAL COMICS",
+                text:"SUBSCRIPTION",
                 img: "img/buy-comics-subscriptions.png"
             },
             {
-                text:"DIGITAL COMICS",
+                text:"DC POWER VISA ",
                 img: "img/buy-dc-power-visa.svg"
             },
         ]
@@ -44,11 +44,12 @@ data() {
 
 <style lang="scss" scoped>
 ul{
+    padding: 1rem 0 1rem 0;
     margin: 0;
     background-color:#0C7CEC;
     li{
         img{
-            height: 100px;
+            height: 70px;
             padding: 0.5rem;
         }
         span{

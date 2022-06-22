@@ -8,7 +8,7 @@
             <div class="flex-grow-1">
             </div>
             
-                <ul class=" m-0 d-flex flex-grow-1 justify-content-end  ">
+                <ul class=" m-0 d-flex flex-grow-1 justify-content-end ">
                     <li class="list-unstyled d-flex " v-for="(items,i) in NavBar" :key="i">
                         <a class="fs-8 fw-bold text-decoration-none p-2 align-self-center" href="#">{{items.title}}</a>
                     </li>

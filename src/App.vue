@@ -1,13 +1,17 @@
 <template>
   <div id="app" class="">
   
-    <MyHeader class="fix-top"></MyHeader>
+    <MyHeader class="fix-top">
+    </MyHeader>
 
-    <MyMain class=""></MyMain>
+    <MyMain class="">
+    </MyMain>
 
-    <BannerDcMerch></bannerDcMerch>
+    <BannerDcMerch>
+    </bannerDcMerch>
 
-    <MyFooter class="jumbotron"></MyFooter>
+    <MyFooter class="jumbotron">
+    </MyFooter>
     
   </div>
 </template>
@@ -22,7 +26,7 @@ import BannerDcMerch from './components/BannerDcMerch.vue';
 export default {
   name: 'App',
   
-  components: { MyHeader, MyMain, MyFooter, BannerDcMerch,
+  components: { MyHeader, MyMain, MyFooter, BannerDcMerch, 
   
   }
 }
@@ -38,7 +42,7 @@ export default {
     position:fixed;
     right:0;
     left:0;
-    top:2rem;
+    top:0;
     background-color:#fff;
   }
 }

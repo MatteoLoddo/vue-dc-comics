@@ -82,6 +82,7 @@ export default{
 .jumbotron{
     color:#fff;
     background-image: url(/public/img/footer-bg.jpg);
+    background-size: cover;
 }
 .col-7{
     &.dc-logo-jumbo{

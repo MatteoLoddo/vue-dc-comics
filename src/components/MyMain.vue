@@ -1,12 +1,20 @@
 <template>
     <div class="content">
+    
         <div class="container pt-10">
-            <h2>Content Here</h2>
+            <ComicsList></ComicsList>
         </div>
     </div>
 </template>
 
+
 <script>
+import ComicsList from '../components/ComicsList.vue';
+
+export default{
+    components:{ComicsList,}
+    
+}
 </script>
 
 <style lang ="scss" scoped>
